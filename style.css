@@ -1,0 +1,380 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #010d80, #220641);
+    height: 80px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 140px;
+}
+
+.logo {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    border-bottom: solid 2px #444142 ;
+    padding-bottom: 3px;
+}
+
+/* Overview section styles */
+.intro-section {
+    background: url('hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro-section .text {
+    text-align: center;
+}
+
+.intro-section .h1 {
+    margin: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.intro-section h3 {
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro-section p {
+    font-size: 15px;
+}
+
+/* Music section styles */
+.ad {
+    background: linear-gradient(to right, #010d80, #220641);
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.ad .text2 h2 {
+    padding: 30px 10px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.ad .text2 h5 {
+    margin: 0 auto 30px auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.ad .text2 p {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ad .text2 .button a {
+    background: rgb(29, 57, 221);
+    border: none;
+    width: 200px; /* Adjust width as needed */
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.ad .text2 .button a:hover {
+    background: white;
+    color: #464243;
+}
+
+.ad .text2 .devices {
+    margin-top: 40px;
+    width: 400px; /* Adjust width as needed */
+}
+
+/* Video section styles */
+.card4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 80px;
+}
+
+.card4 .sec-2 .para1 {
+    margin: 45px 0 40px 0;
+}
+
+.card4 .sec-2 .para1 .t3 {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.card4 .sec-2 .para1 p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.card4 .sec-2 .para1 .t4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.card4 .sec-2 .para1 hr {
+    background: black;
+    margin-bottom: 20px;
+}
+
+.card4 .sec-2 .para1 .button1 a {
+    text-decoration: none;
+    color: white;
+    background:  rgb(29, 57, 221);
+    border: none;
+    width: 200px; /* Adjust width as needed */
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.card4 .sec-2 .para1 .button1 a:hover {
+    background: white;
+    color: #474042;
+    border: 1px solid black;
+}
+
+.card4 .sec-2 .video {
+    margin: 40px 0 40px 250px; /* Adjust margin as needed */
+}
+/* Trending Genres section styles */
+#trending-genres {
+    background-image: url('playmusic1.jpg'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    text-align: center;
+    color: white; /* Adjust text color for better contrast */
+}
+
+#trending-genres .section-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.genre-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.genre img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.genre h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+/* Gift Card section styles */
+#gift-card {
+    background-color: #ffffff;
+    padding: 80px;
+    text-align: center;
+}
+
+#gift-card .section-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#gift-card .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.gift-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.gift-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gift-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.gift-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.gift-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.gift-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.gift-card .btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Interesting Facts section styles */
+#interesting-facts {
+    background: linear-gradient(to right, #010d80, #220641);
+    padding: 80px;
+    text-align: center;
+}
+
+#interesting-facts .section-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#interesting-facts .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.fact h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fact p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(to right, #010d80, #220641);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.card5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.card5 .card6 {
+   background-color: #ffffff;
+    padding: 20px;
+    color: black;
+}
+
+.card5 .card6 .r1 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card5 .card6 ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.copy {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
